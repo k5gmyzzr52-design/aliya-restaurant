@@ -195,9 +195,9 @@ export default function AliyaRestaurant() {
               key={i}
               className="absolute w-1 h-1 rounded-full bg-amber-400"
               initial={{ 
-                x: Math.random() * window.innerWidth,
-                y: Math.random() * window.innerHeight,
-                opacity: 0
+               x: mounted ? Math.random() * window.innerWidth : 0,
+               y: mounted ? Math.random() * window.innerHeight : 0,
+               opacity: 0
               }}
               animate={{
                 y: [null, -100, -200],
