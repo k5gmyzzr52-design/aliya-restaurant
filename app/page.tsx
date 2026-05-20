@@ -7,7 +7,7 @@ export default function AliyaRestaurant() {
   const [activeCategory, setActiveCategory] = useState('all');
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeReview, setActiveReview] = useState(0);
-  const [lightbox, setLightbox] = useState(null);
+  const [lightbox, setLightbox] = useState<string | null>(null)
   const [mounted, setMounted] = useState(false);
   
   const heroRef = useRef(null);
