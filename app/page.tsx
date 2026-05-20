@@ -23,7 +23,7 @@ export default function AliyaRestaurant() {
 
   useEffect(() => {
     setMounted(true);
-    const handleMouse = (e) => {
+    const handleMouse = (e: MouseEvent) => {
       mouseX.set((e.clientX / window.innerWidth - 0.5) * 30);
       mouseY.set((e.clientY / window.innerHeight - 0.5) * 30);
     };
