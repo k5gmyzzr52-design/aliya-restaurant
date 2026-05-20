@@ -846,7 +846,7 @@ export default function AliyaRestaurant() {
                 </div>
                 <div>
                   <label className="text-xs text-zinc-500 tracking-wider mb-2 block">WIADOMOŚĆ</label>
-                  <textarea rows="3" className="w-full bg-transparent border-b border-white/20 py-3 outline-none focus:border-amber-400 transition-colors resize-none" placeholder="Specjalne życzenia..."></textarea>
+                  <textarea rows={3} className="w-full bg-transparent border-b border-white/20 py-3 outline-none focus:border-amber-400 transition-colors resize-none" placeholder="Specjalne życzenia..."></textarea>
                 </div>
 
                 <motion.button 
